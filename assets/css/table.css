@@ -1,0 +1,37 @@
+.table-responsive {
+    height: 50vh;
+    font-family: "Poppins-Regular";
+}
+
+table th {
+    position: sticky;
+    top: -1px;
+    z-index: 10;
+    background-color: rgb(119, 118, 118);
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(187 183 183 / 5%);
+}
+
+.pagination-footer .pages {
+    display: flex;
+    justify-content: end;
+}
+
+.pagination-footer .pages .page {
+    padding: 0rem 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.pagination-footer .pages .page.active {
+    background-color: #4c6ef8;
+    color: #fff;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}

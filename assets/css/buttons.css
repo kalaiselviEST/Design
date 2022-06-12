@@ -1,0 +1,42 @@
+     .btn {
+         padding: 0.6rem 1rem;
+         min-width: 100px;
+         font-family: "Poppins-Regular";
+         font-size: 0.9rem !important;
+         line-height: 15px;
+     }
+     
+     .btn:focus {
+         outline: 0;
+         box-shadow: none;
+     }
+     
+     .btn-primary:not(:disabled):not(.disabled):active,
+     .show>.btn-primary.dropdown-toggle {
+         border-color: #341f75e6;
+         color: #fff;
+         background-color: #2d1967e6;
+         box-shadow: none;
+     }
+     
+     .btn-primary:not(:disabled):not(.disabled):active:focus,
+     .show>.btn-primary.dropdown-toggle:focus {
+         box-shadow: none;
+     }
+     
+     .btn-primary {
+         color: #fff;
+         background-color: #2d1967e6;
+         border-color: #2d1967e6;
+     }
+     
+     .btn-primary:hover,
+     .btn-primary:focus {
+         color: #fff;
+         background-color: #2d1967e6;
+     }
+     
+     .abs-btn {
+         position: absolute;
+         bottom: 5px;
+     }

@@ -1,0 +1,164 @@
+label {
+    font-family: "Poppins-Regular";
+    color: rgb(77, 73, 73);
+}
+
+.icon-input {
+    padding-left: 30px;
+}
+
+.input-item {
+    font-family: "Poppins-Regular";
+    font-size: 0.9rem;
+    color: rgb(100, 100, 100);
+}
+
+.date-input {
+    padding: 0.4rem 1rem;
+    min-width: 300px;
+    border: 1px solid #acadad !important;
+    padding: 0.6rem 0.5rem;
+    border: none;
+    box-shadow: none;
+    min-width: 200px;
+    max-width: auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #3f454c;
+    background-color: transparent;
+    font-family: "Poppins-Regular";
+    border: 1px solid;
+}
+
+.date-input:active,
+.date-input:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.abs-input-icon {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+
+
+/*************************Date picker override **************************************/
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: 'Poppins-Regular';
+    font-size: 15px;
+}
+
+#ui-datepicker-div {
+    position: absolute;
+    top: 515.516px;
+    left: 554.812px;
+    z-index: 1;
+    display: block;
+    border-radius: 14px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border: none;
+}
+
+.ui-datepicker th {
+    padding: 0.7em 0.3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    color: #6c757d!important;
+    font-family: 'Poppins-Regular';
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: none;
+    background: #fff;
+    font-weight: normal;
+    font-family: "Poppins-Regular";
+    color: #454545;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: 0.6em;
+    text-align: right;
+    text-decoration: none;
+    font-family: "Poppins-Regular";
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #005fe6;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    line-height: 16px;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #005fe6;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    line-height: 16px;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: 0.9em;
+    border-collapse: collapse;
+    margin: 0 0 0.4em;
+    height: 85%;
+}
+
+.ui-widget-header {
+    border: none;
+    background: transparent;
+    color: #333333;
+    font-weight: bold;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year,
+.ui-datepicker select.ui-datepicker-month:active,
+.ui-datepicker select.ui-datepicker-year:active,
+.ui-datepicker select.ui-datepicker-month:focus,
+.ui-datepicker select.ui-datepicker-year:focus {
+    width: 45%;
+    border: none;
+    background: transparent;
+}
+
+
+/*************************Multiselect css override **************************************/
+
+.select2-container {
+    width: 100% !important;
+    font-family: "Poppins-Regular";
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {}

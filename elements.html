@@ -1,0 +1,193 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/table.css" />
+    <link rel="stylesheet" href="assets/css/forms.css" />
+    <link rel="stylesheet" href="assets/css/buttons.css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://kit.fontawesome.com/c92deceefe.js" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper" class="toggled">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" class="d-none d-lg-block">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                </li>
+
+                </li>
+                <li class="">
+                    <a href="index.html">
+                        <i class="fas fa-home fa-fw mr-1"></i> Dashboard
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="elements.html" class="active">
+                        <i class="far fa-file-alt fa-fw mr-1"></i> Elements
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="pallets.html">
+                        <i class="fa fa-cogs fa-fw mr-1"></i> Palletes
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="forms.html">
+                        <i class="fa fa-cogs fa-fw mr-1"></i> Forms
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="tables.html">
+                        <i class="fas fa-table fa-fw mr-1"></i> Tables
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="charts.html">
+                        <i class="fa fa-chart-bar fa-fw mr-1"></i> Charts
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="pages.html">
+                        <i class="fa fa-cogs fa-fw mr-1"></i> Pages
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="page-content-wrapper">
+            <div class="page-header clearfix">
+                <div class="float-left">
+                    <i class="fas fa-bars menu-toggle" id="toggle-icon"></i>
+                </div>
+
+            </div>
+            <div class="workspace px-4" id="workspace">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Data</li>
+                                    </ol>
+                                </nav>
+                                <div class="breadcrumbs">
+                                    <ul class="steps m-0 p-0">
+                                        <li class="step">
+                                            <a href="#">
+                                                <i class="fa fa-home" aria-hidden="true"></i>
+                                            </a>
+                                        </li>
+
+                                        <li class="step">
+                                            <a>
+                                                <i class="fas fa-cog" aria-hidden="true"></i> Library
+                                            </a>
+                                        </li>
+                                        <li class="step">
+                                            <a>
+                                                <i class="fas fa-cog" aria-hidden="true"></i> Data
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown my-4">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown button
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Email address : </label>
+                                                        <input type="email" class="form-control input-item" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputPassword1">Password : </label>
+                                                        <input type="password" class="form-control input-item" id="exampleInputPassword1" placeholder="Password">
+                                                    </div>
+                                                    <div class="form-check mb-3">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Check Box</label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="">Select Box : </label>
+                                                        <select class="form-control">
+                                                <option>Default select</option>
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                            </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="datepicker">Date : </label>
+                                                        <input type="text" class="datepicker form-control date-input input-item">
+                                                    </div>
+
+
+
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

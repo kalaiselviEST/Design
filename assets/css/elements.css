@@ -1,0 +1,109 @@
+/****************************Breadcrumbs ***************************/
+
+.breadcrumbs,
+.breadcrumb {
+    font-family: "Poppins-Regular";
+}
+
+.steps {
+    list-style: none;
+    display: flex;
+}
+
+.steps .step {
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background: #64c5b1;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 30px;
+    padding: 0 20px;
+}
+
+.steps .step>a {
+    text-decoration: none;
+    color: #fff
+}
+
+.steps .step:last-child {
+    margin-right: 0;
+}
+
+.steps .step::before {
+    transition: 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -25px;
+    border-left: 25px solid transparent;
+    border-top: 25px solid #64c5b1;
+    border-bottom: 25px solid #64c5b1;
+    ;
+}
+
+.steps .step:first-child::before {
+    display: none;
+}
+
+.steps .step::after {
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    border-left: 25px solid #64c5b1;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    content: "";
+}
+
+.steps .step:last-child::after {
+    display: none;
+}
+
+.steps .step:hover {
+    background: #50a594;
+}
+
+.steps .step:hover::before {
+    border-top-color: #50a594;
+    border-bottom-color: #50a594;
+}
+
+.steps .step:hover::after {
+    border-left-color: #50a594;
+}
+
+.steps .step:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.steps .step:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdown {
+    font-family: "Poppins-Regular";
+}
+
+.dropdown .btn {
+    font-size: 0.8rem !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown .btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu {
+    font-size: 0.8rem;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 0.5rem 0.8rem;
+    color: #676f76;
+}
